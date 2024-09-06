@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Ignore Azure Pipelines agent folder
+.azure-pipelines/
+
+# Ignore GitHub Actions folder
+.github/
+
+# Ignore lockfiles (optional if you are using npm or yarn)
+package-lock.json
+yarn.lock
+
+# Optional: If you're using Visual Studio Code, ignore the settings folder
+.vscode/
